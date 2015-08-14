@@ -65,3 +65,4 @@ from .smtp import SMTPHandler            # noqa
 from .cli import CliHandler              # noqa
 from .opsgenie import OpsgenieHandler    # noqa
 from .victorops import VictorOpsHandler  # noqa
+from .cel import CeleryHandler           # noqa

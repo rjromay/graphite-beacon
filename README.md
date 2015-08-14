@@ -434,6 +434,24 @@ Enable "pagerduty" handler and set the options in your beacon configuration.
 }
 ```
 
+### Setup CeleryHandler
+
+Enable "celery" handler and set the options in your beacon configuration.
+
+```js
+{
+    ...
+    "cel": {
+        "task": "task_name",
+        "module": "module_path_where_task_is_located",
+        "broker": "broker_url",
+		//default value: celery
+		"app": "celery_app"
+    }
+    ...
+}
+```
+
 ### Command line
 
 ```
